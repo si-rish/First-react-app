@@ -1,0 +1,70 @@
+.user-card {
+   
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+
+    margin: 0px 0px 20px 0px;
+    padding: 20px 10px 100px 10px;
+   
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: .8rem;
+
+}
+.desc{
+    font-size: .6rem;
+}
+
+.p-img {
+    height: 150px;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+p{
+    font-weight: 300;
+}
+
+.card-component {
+    background-color:#F5F5F7;
+    width: fit-content;
+    padding: 1%;
+    margin: 20px;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.c-img{
+    height: 150px;
+    width: 300px;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.c-details{
+    padding: 2%;    
+}
+.c-info{
+    font-weight: 300;
+    font-size: small;
+    line-height: 1%;
+}
+button{
+    border: none;
+    border-radius: 24px;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    background-color: #775acc;
+    color: white;
+    margin-top: 18px;
+    width: 285px;
+    cursor: pointer;
+}
+
+.card-component:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
